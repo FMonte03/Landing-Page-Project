@@ -1,7 +1,7 @@
 .top{
     background-color: #1F2937;
     box-sizing: border-box;
-    height: 400px;
+    height: 450px;
     display: flex;
     flex-direction: column;
 }
@@ -10,6 +10,7 @@
 .header{
 display: flex;
 justify-content: space-between;
+margin-bottom: 75px;
 }
 
 
@@ -44,14 +45,22 @@ color: #e5e7eb;
 .hero{
 display: flex;
 align-items: center;
-gap: 50px;
+justify-content: center;
+gap: 150px;
 
 }
 
 .hero-left{
-padding-left: 175px;
+
 width: 400px;
 
+
+
+}
+
+.hero-left > p {
+width: 350px;
+color:#e5e7eb
 
 
 }
@@ -68,7 +77,23 @@ justify-content: center;
 
 }
 
+h2{
+font-size: 48px;
+color: #F9FAF8;
+font-weight:bold;
+margin: 0px;
+
+
+
+
+}
+
+
 button{
 background-color: #3882F6;
-
+border-radius: 4px;
+border: none; 
+cursor: pointer;
+color: #F9FAF8;
+padding: 4px 12px 4px 12px; 
 }
