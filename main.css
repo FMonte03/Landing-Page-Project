@@ -1,3 +1,4 @@
+
 .top{
     background-color: #1F2937;
     box-sizing: border-box;
@@ -82,12 +83,45 @@ font-size: 48px;
 color: #F9FAF8;
 font-weight:bold;
 margin: 0px;
+}
 
 
+h3{
+font-size: 36px;
+text-align: center;
+font-weight: bolder;
+
+}
+
+.hollow{
+box-sizing: border-box;
+height: 150px;
+width: 150px; 
+border: #3882F6 solid 3px;
+border-radius: 10px;
 
 
 }
 
+.boxes{
+box-sizing: border-box;
+width: 150px;
+
+
+}
+
+.container2{
+display: flex;
+justify-content: center;
+gap: 32px;
+
+
+}
+
+
+.boxes > p {
+    text-align: center;
+}
 
 button{
 background-color: #3882F6;
