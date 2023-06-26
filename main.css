@@ -106,7 +106,7 @@ border-radius: 10px;
 .boxes{
 box-sizing: border-box;
 width: 150px;
-
+margin-bottom: 50px;
 
 }
 
@@ -131,3 +131,37 @@ cursor: pointer;
 color: #F9FAF8;
 padding: 4px 12px 4px 12px; 
 }
+
+.quote{
+    background-color: #E5E7EB;
+    box-sizing: border-box;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quote > *{
+    box-sizing: border-box;
+    width: 700px;
+
+}
+
+#testimonial{
+font-size: 36px;
+font-style: italic;
+margin-top: 50px;
+color: #616b77;
+margin-bottom: 16px;
+
+}
+
+
+
+#thor{
+display: flex;
+justify-content: flex-end;
+font-size: 24px;
+font-weight: bold;
+margin-top: 16px;}
